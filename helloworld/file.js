@@ -25,5 +25,3 @@ const fs = require("fs");
 
 // console.log(fs.statSync("./test.txt").isFile())
 // fs.mkdirSync("my-docs/a/d",{recursive:true})
-
-fs.open("./test.txt",(erro)=>{console.log(erro)})
