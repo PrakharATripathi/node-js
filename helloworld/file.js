@@ -1,10 +1,29 @@
-const { error } = require("console");
+// const { error } = require("console");
 const fs = require("fs");
+const os = require("os");
+
+console.log(os.platform());
 
 // create file
-// synchron 
+// synchron blocking request 
 // fs.writeFileSync('./test.txt',"he prakhar")
+// console.log("1")
+// const result = fs.readFileSync("test.txt","utf-8")
+// console.log(result)
+// console.log("2")
+
+// asynchronous non-blocking request
 // fs.writeFile('./test.js',"he prakhar dfhtjngmnh fhyj",(error)=>(console.log(error)))
+// console.log("1")
+//  fs.readFile("test.txt","utf-8",(error,result)=>{
+//     console.log(result);
+//  })
+
+// console.log("2")
+// console.log("2")
+// console.log("2")
+// console.log("2")
+// console.log("2")
 
 // read the file
 // const result =fs.readFileSync("./new.txt","utf-8");
