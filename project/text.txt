@@ -1,0 +1,7 @@
+schema- Define the structure
+zend.delete_if_mising_errors           
+while doing operation on the scheam 
+
+
+
+
